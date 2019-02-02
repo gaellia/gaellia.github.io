@@ -1,0 +1,133 @@
+@font-face {
+    font-family: avenir;
+    src: url(assets/fonts/avenir.otf);
+}
+
+body {
+    background-color: white;
+    font-family: avenir;  
+}
+
+h1 {
+    color:#EF476F
+}
+
+img {
+    margin: 10px;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 black,
+     0   -1px 0 black,
+     1px -1px 0 black,
+     1px  0   0 black,
+     1px  1px 0 black,
+     0    1px 0 black,
+    -1px  1px 0 black,
+    -1px  0   0 black;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    background-image: url(assets/images/banner.jpg);
+    background-size: 100% 100%;
+    font-family: avenir;
+}
+.content-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav {
+    background-color: #396387;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 10px;
+    width: 20%;
+    border-radius: 10px;
+
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    background-color:#396387;
+    border-radius: 10px;
+    font-family: avenir;
+}
+nav li {
+    display: inline-block;
+}
+nav li a:hover {
+    background-color:#FFFCF9;
+    color: black;
+}
+
+article {
+    background-color:#54A891;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.pic-desc {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color:#FFD166;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: avenir;
+    text-align: center;
+}
+
+table {
+    font-family: avenir;
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+    padding: 8px;
+    color: #FFFCF9;
+    text-shadow:
+    -1px -1px 0 black,
+     0   -1px 0 black,
+     1px -1px 0 black,
+     1px  0   0 black,
+     1px  1px 0 black,
+     0    1px 0 black,
+    -1px  1px 0 black,
+    -1px  0   0 black;
+}
+td {
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color: #3F7F6E;
+    color: white;
+}
+tr:nth-child(1) {
+    border-bottom: 5px solid black;
+}
